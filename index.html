@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Umakshi | Portfolio</title>
+
+  <!-- Font Awesome CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-..."
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="top-bar">
+    <div class="brand">
+      <h1>Umakshi</h1>
+      <p>AI Scientist | Data Scientist | ML Engineer</p>
+    </div>
+    <!-- Hamburger Icon to toggle sidebar -->
+    <div class="hamburger" id="toggle-sidebar-btn">
+      &#9776; <!-- or you can use an <img> icon -->
+    </div>
+  </header>
+
+  <!-- Sidebar (initially hidden on mobile) -->
+  <aside class="sidebar" id="sidebar">
+    <div class="profile">
+      <img src="profile.jpg" alt="Umakshi Profile" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Professional Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href = "#technical-skills">Techical Skills</a></li>
+        <li><a href="#extra">Extra Curricular</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </nav>
+    <!-- Sidebar Footer with Icon Links -->
+    <div class="sidebar-footer">
+      <!-- GitHub Icon -->
+      <a href="https://github.com/umakshi12" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <!-- LinkedIn Icon -->
+      <a href="https://www.linkedin.com/in/umakshi-sharma-163302206/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <!-- Medium Icon -->
+      <a href="https://medium.com/@kaushik.umakshi" target="_blank">
+        <i class="fab fa-medium"></i>
+      </a>
+    </div>
+  </aside>
+
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- About Section -->
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>
+        I am an aspiring AI & Data Science professional currently working as an AI Scientist at iAssist Innovations Labs, with one year of combined internship and professional experience. At iAssist, I led enhancements to the mICRa product for ICICI Lombard by automating monitoring processes, optimizing reporting, and transitioning legacy systems into scalable microservices.
+
+        Proficient in Python, machine learning frameworks, data analysis, and prompt engineering, I am passionate about leveraging AI to solve real-world problems. I am eager to further explore opportunities in LLM training, fine-tuning, and AI agent development. Let's connect to discuss innovative AI solutions.
+      </p>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="content-section">
+      <h2>Professional Experience</h2>
+
+      <!-- AI Scientist -->
+      <div class="job-card">
+        <h3>AI Scientist</h3>
+        <p><strong>iAssist Innovations Labs</strong> <i>(April 2024 - Present)</i></p>
+        <ul>
+          <li> Spearheading the enhancement of mICRa, a collaborative product with ICICI Lombard, by automating monitoring processes and integrating new features. <i>(Skills: Product Enhancement, Process Automation | Technologies: Python, Flask, ICR/OCR, Pandas).</i></li>
+          <li>Took charge of the reporting module, demonstrating proficiency in Pandas to generate a variety of reports, showcasing analytical capabilities. <i>(Skills: Data Analytics, Reporting | Technologies: Pandas, Python)</i></li>
+          <li>Converted a monolithic application into micro-services and dockerized the application, significantly improving scalability and maintainability.<i>(Skills: Microservices, Docker | Technologies: Docker, Microservices Architecture)</i></li>
+          <li>Working on improving prediction accuracy by refining algorithm parameters and Data. <i>(Skills: Machine Learning, Model Optimization | Technologies: Python, Data Preprocessing)</i></li>
+        </ul>
+      </div>
+
+      <!-- Data Scientist Intern -->
+      <div class="job-card">
+        <h3>Data Scientist Intern</h3>
+        <p><strong>Exposys Data Labs</strong> <i>(April 2024 - May 2024)</i></p>
+        <ul>
+          <li>Developed a predictive model for company profits using machine learning to analyze R&D, Administration, and Marketing Spend. (Skills: Machine Learning, Predictive Analytics | Technologies: Linear Regression, Decision Trees, Neural Networks)</li>
+          <li>Implemented multiple regression algorithms, including Linear Regression, Lasso, Ridge, Decision Tree, Random Forest, and Support Vector Regression (SVR), for performance optimization.<i>(Skills: Regression Analysis, Model Evaluation | Technologies: Scikit-Learn, Python)</i></li>
+          <li>Conducted exploratory data analysis (EDA) to preprocess and visualize company financial data for improved model performance. <i>(Skills: Data Analysis, Feature Engineering | Technologies: Pandas, NumPy, Seaborn, Matplotlib)</i></li>
+          <li>Optimized model accuracy, achieving 97.95% using Linear Regression, evaluated through MSE, MAE, and R² score. <i>(Skills: Model Optimization, Performance Tuning | Technologies: Python, Scikit-Learn)</i></li>
+          <li>Deployed the machine learning model using Streamlit, creating an interactive web interface for real-time profit prediction. <i>
+            (Skills: Model Deployment, Web Development | Technologies: Streamlit, Flask, Python)
+          </i></li>
+          <li>Automated model training and deployment, ensuring scalability and efficiency in predictive analytics. <i>(Skills: Automation, ML Pipelines | Technologies: Python, Scikit-Learn, Pickle)</i></li>
+        </ul>
+      </div>
+
+      <!-- ML Intern -->
+      <div class="job-card">
+        <h3>ML Intern</h3>
+        <p><strong>CSIR - CSIO, Chandigarh</strong> <i>(July 2023 - Sep 2023)</i></p>
+        <ul>
+          <li>Developed an AI Car Assistant predicting vehicle acceleration.</li>
+          <li>Utilized data mining techniques for analyzing, visualizing, and preprocessing real-time series datasets by using correlation and interpolation techniques</li>
+          <li>Implemented Multiple Linear Regression algorithm and evaluated results using RMSE, MSE, and R2 Scores. </li>
+          <li>Trained models using the Cross-validation technique, achieving an impressive R2 score of 0.9574. </li>
+        </ul>
+      </div>
+
+      <!-- Android Developer -->
+      <div class="job-card">
+        <h3>Android Developer</h3>
+        <p><strong>OOHR Innovations, UIET KUK</strong> <i>(April 2023 - August 2023)</i></p>
+        <ul>
+          <li>Accomplished Android Developer Intern at OOHR INNOVATIONS. <i>(Skills: Android Development, Mobile App Development | Technologies: Kotlin, XML, Android Studio)</i></li>
+          <li>Contributed to the creation of a driver’s app by preparing workflow and flowcharts, showcasing project collaboration and effective app design strategies. <i>(Skills: UI/UX Design, Project Collaboration | Technologies: Figma, Wireframing, Flowcharting)</i></li>
+        </ul>
+      </div>
+
+      
+      <!-- Subject Matter Expert Intern -->
+      <div class="job-card">
+        <h3>Subject Matter Expert (Mathematics)</h3>
+        <p><strong>Shadovein</strong> <i>(May 2021 - Sep 2021) </i></p>
+        <ul>
+          <li>Interned as a Subject Matter Expert (Mathematics) at Shadovein, applying mathematical expertise to solve real-world problems and provide insights.<i>(Skills: Problem-Solving, Analytical Thinking | Technologies: Mathematics, Quantitative Analysis)</i> </li>
+          <li>Developed proficiency in MS Office and Content Management Systems (CMS), gaining practical experience in job ethics and professional communication.<i>(Skills: Documentation, Content Management | Technologies: MS Office, CMS)</i> </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section">
+      <h2>Projects</h2>
+      <div class="job-card">
+        <ul>
+          <p><strong>DRY HERBS-Ayurvedic herbs classifier</strong> <i> | Major Project</i></p>
+          <li>Gained hands-on experience in a project with PhD scholar from Shri Krishna Ayush university, focusing on
+            the use of computer vision technology to classify Ayurvedic herbs, stems, fruits, and seeds.</li>
+          <li>
+            Learned the full project development process, including dataset collection, preprocessing, and the application of data augmentation techniques to expand the dataset.
+          </li>
+          <li>
+            Acquired knowledge in using Convolutional Neural Network (CNN) models for image classification and in developing APIs with Django.
+          </li>
+          
+
+        </ul>
+      </div>
+
+
+      <div class="job-card">
+        <ul>
+          <p><strong>PIEZOELECTRIC ENERGY HARVESTER USING COMSOL</strong> <i> | Minor Project</i></p>
+            <li>Modeled and simulated a piezoelectric energy harvesting system using COMSOL Multiphysics.</li>
+            <li>Conducted finite element analysis to optimize the design parameters for maximum energy conversion efficiency.</li>
+            <li>Investigated the feasibility of integrating piezoelectric harvesters into wearable devices for self-powered applications.</li>
+        </ul>
+      </div>
+
+      <div class = "job-card">
+        <ul>
+          <p><strong>SMART ENERGY METER USING ARDUINO</strong> <i> | Mini Project</i></p>
+            <li>Designed and developed a smart energy meter system utilizing Arduino UNO Microcontroller.</li>
+            <li>Integrated a 16*2 LED display I2C module for user-friendly data visualization.</li>
+            <li>Implemented an Optocoupler for accurate measurement of energy consumption.</li>
+            <li>Utilized an Analog Single phase two-wire energy meter for precise energy monitoring.</li>
+        </ul>
+      </div>
+    </section>
+
+     <!-- Techical Skills -->
+     <section id="technical-skills" class="content-section">
+      <h2>Technical Skills</h2>
+      <div class="job-card">
+        <ul>
+          <li><strong>Programming Languages:</strong> Python(proficient),C/C++</li>
+          <li><strong>Libraries and Frameworks:</strong> Pandas, Scikit Learn,Flask, Matplotlib, Streamlit, Tensorflow, Keras, CNN, LangChain, LangGraph.
+          </li>
+          <li><strong>Database:</strong>
+            MySQL
+          </li>
+          <li>
+            <strong>Prompt Engineering:</strong>
+            GPT-4o,Dall-e,MidJourney,Pixlr,DeepSeek r1
+          </li>
+          
+
+        </ul>
+      </div>
+
+    <!-- Eductaion -->
+    <section id="extra" class="content-section">
+        <h2>Education</h2>
+        <p>
+          <strong>UIET, Kurukshetra University</strong>         (Aug 2020 - June 2024)<br />
+          <i>B.Tech - Electronics and Communication</i> - CGPA - 8.54
+        </p>
+        <p>
+            <strong>Vivekanand Sr. Sec. School, Karnal</strong>         (Aug 2020 - June 2024)<br />
+            <i>12th Non-Medical</i> - 93.6%
+          </p>
+      </section>
+
+    <!-- Extra Curricular Activities -->
+    <section id="extra" class="content-section">
+      <h2>Extra Curricular Activities</h2>
+        <p><strong>CONTENT WRITER LEAD at E-Cell UIET KUK Kurukshetra, India:</strong>(May 2022 - May 2024)<br /></p>
+      <li>
+        Accomplished Content Writer Lead at E-Cell UIET KUK, orchestrating events and activities impacting over 1000 students, promoting Innovation and Entrepreneurship in the Institute, measured by organizational skills and event management capabilities.
+      </li>
+      <li>Participated Actively in Interschool Debates and Declamation Contests, showcasing effective communication skills and
+        public speaking abilities.</li>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p><strong>Contact No.</strong> 9306774453</p>
+      <p><strong>Email:</strong> <a href="mailto:kaushik.umakshi@gmail.com">kaushik.umakshi@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/umakshi-sharma-163302206/" target="_blank">Umakshi Sharma</a></p>
+    </section>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
